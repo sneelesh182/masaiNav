@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+      }
+      header {
+        margin-top: 10px;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      nav > div > span {
+        padding: 15px;
+        /* font-size: 16px; */
+        font-weight: 600;
+      }
+      button:nth-of-type(1) {
+        background-color: #f2f6fe;
+        color: #8b8fd7;
+        box-sizing: border-box;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      button:nth-of-type(2) {
+        box-sizing: border-box;
+        padding: 12px 18px;
+        background-color: white;
+        color: red;
+        border: 1px solid red;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      nav > div > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="https://dashboard.masaischool.com/static/media/masailogo.ab93bfe1.svg"
+          alt="masailogo"
+        />
+        <div>
+          <span>COURSES</span>
+          <span>FEES & ISA</span>
+          <span>ABOUT US</span>
+          <span>HIRE FROM US</span>
+          <span>FAQ</span>
+          <span>EVENTS</span>
+        </div>
+        <div>
+          <div>
+            <button>REFER & EARN</button>
+            <button>LOGIN</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
